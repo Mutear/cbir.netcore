@@ -22,7 +22,7 @@ namespace CBIR.Netcore.Image
                 }
                 return grayPixelMatrix;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 return null;
             }
